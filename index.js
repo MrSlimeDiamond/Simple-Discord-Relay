@@ -1,5 +1,5 @@
 const config = require("./config.json");
-const Discord = require("Discord.js");
+const Discord = require("discord.js");
 const irc = require("irc");
 
 var ircclient = new irc.Client(config.ircserver, config.ircnick, {
